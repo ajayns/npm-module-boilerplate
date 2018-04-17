@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajayns/npm-module-boilerplate"
+  },
   "keywords": [
     "npm",
     "module",
@@ -17,6 +21,10 @@
   ],
   "author": "ajayns <ajay.ns@outlook.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajayns/npm-module-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ajayns/npm-module-boilerplate#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
