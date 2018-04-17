@@ -1,0 +1,24 @@
+{
+  "name": "npm-module-boilerplate",
+  "version": "0.0.1",
+  "description": "ES6+ NPM Module Boilerplate using the latest tools and best practices",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "npm-module",
+    "es6",
+    "boilerplate"
+  ],
+  "author": "ajayns <ajay.ns@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
