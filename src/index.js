@@ -1,3 +1,3 @@
-import helloWorld from './helloWorld'
+import helloWorld from './helloWorld';
 
-module.exports = helloWorld
+export default helloWorld;

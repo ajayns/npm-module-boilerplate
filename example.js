@@ -1,3 +1,3 @@
-const helloWorld = require('./dist')
+const helloWorld = require('./dist').default;
 
-helloWorld()
+helloWorld();
